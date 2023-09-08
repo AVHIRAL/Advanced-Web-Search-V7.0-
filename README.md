@@ -18,14 +18,23 @@ A utiliser avec modération car si il y a trop de requêtes Google peut bloquer 
 Bien installer les dépendances :
 
 import tkinter as tk
+
 import tkinter.ttk as ttk
+
 from tkinter import PhotoImage, IntVar, Checkbutton
+
 from selenium.webdriver.common.by import By
+
 from bs4 import BeautifulSoup
+
 from selenium import webdriver
+
 from selenium.webdriver.common.keys import Keys
+
 from selenium.webdriver.chrome.service import Service as ChromeService
+
 from googleapiclient.discovery import build
+
 import webbrowser
 import googlesearch as gs
 import time
