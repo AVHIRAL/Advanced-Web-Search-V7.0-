@@ -8,6 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service as ChromeService
 from googleapiclient.discovery import build
 import googlesearch as gs
+import webbrowser
 import time
 import winsound
 import requests
