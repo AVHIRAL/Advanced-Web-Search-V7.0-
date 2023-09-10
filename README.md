@@ -42,3 +42,5 @@ import winsound
 import requests
 import hashlib
 import webbrowser
+
+AVHIRAL-TE@M 2023, coded by David PILATO. Donate PAYPAL : contact@avhiral.com
