@@ -17,30 +17,12 @@ A utiliser avec modération car si il y a trop de requêtes Google peut bloquer 
 
 Bien installer les dépendances :
 
-import tkinter as tk
+pip install google-api-python-client
 
-import tkinter.ttk as ttk
+pip install requests
 
-from tkinter import PhotoImage, IntVar, Checkbutton
+pip install google
 
-from selenium.webdriver.common.by import By
-
-from bs4 import BeautifulSoup
-
-from selenium import webdriver
-
-from selenium.webdriver.common.keys import Keys
-
-from selenium.webdriver.chrome.service import Service as ChromeService
-
-from googleapiclient.discovery import build
-
-import webbrowser
-import googlesearch as gs
-import time
-import winsound
-import requests
-import hashlib
-import webbrowser
+pip install googlesearch-python
 
 AVHIRAL-TE@M 2023, coded by David PILATO. Donate PAYPAL : contact@avhiral.com
